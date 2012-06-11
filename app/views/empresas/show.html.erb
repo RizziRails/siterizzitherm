@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Razao:</b>
+  <%= @empresa.razao %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%= @empresa.endereco %>
+</p>
+
+<p>
+  <b>Cep:</b>
+  <%= @empresa.cep %>
+</p>
+
+<p>
+  <b>Bairro:</b>
+  <%= @empresa.bairro %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%= @empresa.cidade %>
+</p>
+
+<p>
+  <b>Estado:</b>
+  <%= @empresa.estado %>
+</p>
+
+<p>
+  <b>Cnpj:</b>
+  <%= @empresa.cnpj %>
+</p>
+
+<p>
+  <b>Inscricao estadual:</b>
+  <%= @empresa.inscricao_estadual %>
+</p>
+
+
+<%= link_to 'Edit', edit_empresa_path(@empresa) %> |
+<%= link_to 'Back', empresas_path %>

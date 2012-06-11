@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rizzitherm</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "pages", :media => "all" %>
+
+
+  <%= javascript_include_tag " application" %>
+  <%= javascript_include_tag "pages" %>
+  <%= csrf_meta_tags %>
+
+</head>
+
+<body>
+	
+	
+<div id="container">
+
+
+
+	   <div id="header">
+	    	<div id="logo"> 
+			 <img src="/images/LogoRizzi-3.png" width="300"  height="112" alt="Logo Rizzitherm">
+		</div>
+			
+	   </div>
+	
+	
+	<div id="nav">
+		
+		<%= render :partial => "menu"%>
+		
+
+	</div>
+	
+		<div id="site-content">
+			<div id="col-right"> 
+					<%= render :partial => "menuLi"%>
+				
+			</div>
+			
+			
+		      	<div id="col-left">
+				
+			      <%= yield %>
+			
+			
+			    </div>
+			
+	 	</div>
+	
+	
+		<div id="footer">
+			Rua Cristovam de Gouveia, 436 - Vl Jaguara - São Paulo - SP <br>
+			Cep:05120-020 - 			Fones: 55-11-3621-6464
+		</div>
+
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+

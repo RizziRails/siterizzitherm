@@ -1,0 +1,11 @@
+	
+		
+	
+	<%= link_to("HOME", { :controller => 'home', :action => 'index' }) %> |
+	<%= link_to("A EMPRESA", { :controller => 'quem', :action => 'index' }) %> |
+	<%= link_to("LOCALIZAÇÃO", { :controller => 'localizacao', :action => 'index' }) %> |
+   	<%= link_to("CONTATO", { :controller => 'contato', :action => 'index' }) %> |
+	<%= link_to("PRODUTOS", { :controller => 'pages', :action => 'produtos' }) %> |
+	
+	
+	

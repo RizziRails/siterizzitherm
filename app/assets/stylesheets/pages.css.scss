@@ -1,0 +1,28 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+a:link { color: #333333; font-size:13px}
+a:visited {color:#333333;}
+a:hover {color:#3399ff;}
+a:active {color:#00bbdd;}
+
+
+#nav {
+	width:908px;
+	float:left;
+	background:url(../images/nav-bg.jpg) repeat-x;
+	height:21px;
+	padding:10px;
+	vertical-align:middle;
+	font-size:13px;
+	color: #3377bb;
+	a:link { color: #00ffff; text-decoration: none; };
+	a:visited {color: #66ffff;};
+	a:hover {color:#006699;};
+	a:active {color:#00bbdd;};
+	
+	
+}
+

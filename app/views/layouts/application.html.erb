@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rizzitherm </title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "contato", :media => "all" %>
+  <%= stylesheet_link_tag    "home", :media => "all" %>
+
+
+
+  <%= javascript_include_tag " application" %>
+
+  <%= javascript_include_tag "pages" %>
+
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+<div id="container">
+
+
+
+	   <div id="header">
+	    	<div id="logo"> 
+			 <img src="/images/LogoRizzi-3.png" width="300"  height="112" alt="Logo Rizzitherm">
+		</div>
+			
+	   </div>
+	
+	
+	<div id="nav">
+		
+		<%= link_to("HOME", { :controller => 'home', :action => 'index' }) %> |
+		<%= link_to("A EMPRESA", { :controller => 'quem', :action => 'index' }) %> |
+		<%= link_to("LOCALIZAÇÃO", { :controller => 'localizacao', :action => 'index' }) %> |
+		<%= link_to("CONTATO", { :controller => 'contato', :action => 'index' }) %> |
+		<%= link_to("PRODUTOS", { :controller => 'pages', :action => 'produtos' }) %> |
+		
+
+		
+		
+		
+	</div>
+	
+	
+		<div id="site-content">
+                <div id="col-right"> 
+				
+
+
+    <h3 class="h-text-3">     <%= link_to("CINTAS DE SILICONE",{ :controller => 'pages', :action => 'cinta_de_tambor_de_silicone'})%> </h3>
+					  <p class="text-2">As cintas de aquecimento de tambor fabricadas em silicone, são uma excelente 					 opção para tambores plásticos dada a sua baixa dissipação térmica.<br>
+					  Em testes, se mostraram extremamente eficientes em ambientes com atmosfera agressiva (corrosiva) e também em ambientes com alto teor de umidade.</p>
+					
+					
+					
+					    <h3 class="h-text-3"><%= link_to("MINI ESTUFA(PARA 01 TAMBOR)",{ :controller => 'pages', :action => 'mini_estufa'})%> </h3>
+
+
+					<p class="text-2">As mini estufas são indicadas para processos que necessitam de homogeneidade no aquecimento do tambor, diferentemente das cintas metálicas que emanam calor localizado.
+			<br>	Caso necessite de calor indireto no tambor, podem ser melhor alternativa do que as cintas de tambores</p>
+						
+				
+						
+											    <h3 class="h-text-3"><%= link_to("ESTUFA ELÉTRICA (PARA MULTIPLOS TAMBORES))",{ :controller => 'pages', :action => 'estufa_eletrica'})%> </h3>
+											
+					<p class="text-2">Fabricamos estufas elétricas ou a gás para aquecimento de multiplos tambores simultaneamente. Podem ser fabricadas com ou sem circulação interna de ar.	
+				Dado ao seu tipo de controle, podem trabalhar de forma desassistida.</p>
+
+			
+				
+				
+				
+                </div>  
+			
+			
+		      	<div id="col-left">
+				
+			      <%= yield %>
+			
+			
+			    </div>
+			
+	 	</div>  
+	
+	
+				  
+			    
+	
+	
+	
+	
+		<div id="footer">
+			Rua Cristovam de Gouveia, 436 - Vl Jaguara - São Paulo - SP <br>
+			Cep:05120-020 - 			Fones: 55-11-3621-6464 / 6868
+		</div>
+
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+

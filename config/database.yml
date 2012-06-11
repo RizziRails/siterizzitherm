@@ -1,0 +1,31 @@
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: rizzi_rails_rizzitherm_development
+  pool: 5
+  username: rizzit_devo
+  password: jrizzi3624
+  socket: /tmp/mysql.sock
+
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: rizzi_rails_rizzitherm_test
+  pool: 5
+  username: rizzit_teste
+  password: jrizzi3624
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: rizzi_rails_rizzitherm_production
+  pool: 5
+  username: rizzit_prod
+  password: jrizzi3624
+  socket: /tmp/mysql.sock

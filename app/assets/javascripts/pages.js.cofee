@@ -1,0 +1,30 @@
+# Place all the behaviors and hooks related to the matching controller here.
+# All this logic will automatically be available in application.js.
+# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+
+	
+	
+
+	<SCRIPT>
+	   function rizzi() {
+		window.alert ("que merda!")
+		document.write ("Rizzi, eu falei pra não mexer aqui!") 
+	}
+	
+	</SCRIPT>
+	
+
+
+
+ <script type="text/javascript">  
+
+ $(document).ready(function() {
+   $("a").click(function() {
+     alert("Hello world!");
+   });
+ });
+
+ </script>
+ 
+
+

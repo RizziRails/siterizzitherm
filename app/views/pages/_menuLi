@@ -1,0 +1,81 @@
+<h2 class="h-text-3"> Acessórios</h2>
+
+&nbsp; &nbsp;   <%= link_to("- Bobinas Eletro-magnéticas", { :controller => 'pages', :action => 'bobina'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Bucha Plástica", { :controller => 'pages', :action => 'bucha_plastica'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Flanges ", { :controller => 'pages', :action => 'flanges'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Niples", { :controller => 'pages', :action => 'niples'  }) %> <br>
+
+
+<h2 class="h-text-3"> Aquecedores</h2>
+&nbsp; &nbsp;   <%= link_to("- Água", { :controller => 'pages', :action => 'aquecedores_agua'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Ar", { :controller => 'pages', :action => 'aquecedores_ar'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Óleo", { :controller => 'pages', :action => 'aquecedores_oleo'  }) %> <br>
+
+	
+
+<h2 class="h-text-3"> Automação Industrial </h2>
+
+
+&nbsp; &nbsp;   <%= link_to("- Painéis de comando", { :controller => 'pages', :action => 'paineis_de_comando'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Painéis programáveis (CLP)", { :controller => 'pages', :action => 'paineis_programaveis'  }) %> <br>
+
+
+<h2 class="h-text-3"> Cintas para tambores</h2>
+
+
+&nbsp; &nbsp;   <%= link_to("- Cinta de Tambor de Silicone", { :controller => 'pages', :action => 'cinta_de_tambor_de_silicone'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Cinta de Tambor de 200 Lts", { :controller => 'pages', :action => 'cinta_de_tambor'  }) %> <br>
+
+
+<h2 class="h-text-3"> Estufas</h2>
+&nbsp; &nbsp;   <%= link_to("- Estufa elétrica", { :controller => 'pages', :action => 'estufa_eletrica'  }) %> <br>
+&nbsp; &nbsp;   <%= link_to("- Estufa a gás", { :controller => 'pages', :action => 'estufa_a_gas'  }) %> <br>
+
+
+
+
+
+<h2 class="h-text-3"> Máquinas</h2>
+
+&nbsp; &nbsp; <%= link_to("- Dobrar resist.- Elétrica", { :controller => 'pages', :action => 'maquina_dobrar_eletrica' }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Dobrar resist.- Hidraulica", { :controller => 'pages', :action => 'maquina_dobrar_hidraulica'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Dobrar resist.- Manual", { :controller => 'pages', :action => 'maquina_dobrar_manual'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Encher resistências", { :controller => 'pages', :action => 'maquina_de_encher'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Hot Stamping Automotiva", { :controller => 'pages', :action => 'hot_stamping'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Trefiladeira p/ resistências", { :controller => 'pages', :action => 'trefiladeira'  }) %> <br>
+
+
+
+
+<h2 class="h-text-3"> Resistências</h2>
+
+&nbsp; &nbsp; <%= link_to("- Cartucho Alta Carga", { :controller => 'pages', :action => 'cartucho_de_alta'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Cartucho Baixa Carga", { :controller => 'pages', :action => 'cartucho_de_baixa'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Coleira de Cerâmica", { :controller => 'pages', :action => 'coleira_ceramica'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Coleira de Mica", { :controller => 'pages', :action => 'coleira_mica'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Espirais", { :controller => 'pages', :action => 'espirais'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Forno", { :controller => 'pages', :action => 'forno'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Flangeadas", { :controller => 'pages', :action => 'flanges'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Placa de Cerâmica", { :controller => 'pages', :action => 'placa_ceramica'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Placa de Mica", { :controller => 'pages', :action => 'placa_mica'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Tubular para àgua", { :controller => 'pages', :action => 'tub_agua'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Tubular para ar", { :controller => 'pages', :action => 'tub_ar'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Tubular a seco", { :controller => 'pages', :action => 'tub_seco'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Tubular para óleo", { :controller => 'pages', :action => 'tub_oleo'  }) %> <br>
+
+
+
+
+
+
+
+<h2 class="h-text-3"> Termopares</h2>
+
+&nbsp; &nbsp; <%= link_to("- Tipo J", { :controller => 'pages', :action => 'termopar_j'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- Tipo K", { :controller => 'pages', :action => 'termopar_k'  }) %> <br>
+&nbsp; &nbsp; <%= link_to("- PT-100", { :controller => 'pages', :action => 'termopar_pt100'  }) %> <br><br>
+
+
+
+
+	
